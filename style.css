@@ -45,6 +45,7 @@
 
 .dropdown-content a {
   float: none;
+	margin-left: 30px;
   color: beige;
   padding: 12px 16px;
   text-decoration: none;
@@ -175,4 +176,5 @@ div {
 article {
   font-size: 23px;
   margin-left: 100px;
+
 }
