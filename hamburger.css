@@ -1,0 +1,96 @@
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links li a {
+  color: white;
+  text-decoration: none;
+}
+.nav-links.show {
+      display: block;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  color: ghostwhite;
+  gap: 5px;
+}
+.hamburger span {
+  width: 25px;
+  height: 3px;
+  background: white;
+  border-radius: 2px;
+}
+.menu-toggle {
+  display: none;
+}
+@media (max-width: 768px) {
+  .hamburger {
+    display: flex;
+  }
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    background: black;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 200px;
+    padding: 10px;
+  }
+  .menu-toggle:checked ~ .nav-links {
+    display: flex;
+  }
+}
+{
+  color: beige;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+  color: black;
+}
+
+.dropdown .dropbtn {
+display: flex;
+color: black;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  margin-left: 0px;
+  transition: transform 0.5s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: beige;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.navbar{
+  color: ghostwhite;
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Home page</title>
+</head>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="hamburger.css">
+<body>
+	<div class="dropdown">
+		<button class="dropbtn">
+	<nav class="navbar">
+	<input class="menu-toggle">
+	<label class="hamburger">
+     <span></span>
+     <span></span>
+     <span></span>
+    </label>
+</button>
+    <div class="dropdown-content">
+    <ul class="nav-links">
+			<li><a href="index.html">Home Page</a>
+			<li><a href="Traditional Clothing Page.html">Traditional Clothing Page</a></li>
+		<li><a href="Music and Dance Page.html">Music and Dance Page</a></li>
+			<li><a href="Crafts & Art Page.html">Crafts & Art Page</a></li>
+				<li><a href="Contact & Feedback Page.html">Contact & Feedback Page</a></li>
+</nav>
+</div>
+<br>
+<script>
+    const hamburger = document.querySelector('.hamburger');
+    const navLinks = document.querySelector('.nav-links');
+
+    hamburger.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+});
+  </script>
+
+</div>
+
+<div class="container">
+	<div class="left-side">
+<img src="images/	culture2.jpg">
+</div>
+
+<div class="right-side">
+	<h1>Introduction</h1>
+	<p>
+		Welcome! This website with it's multiple pages is intended to showcase the Basotho Cultural Heritage, including clothing, music, crafts, and festivals.<br>This is aimed at introducing you into the  Basotho Culture through images and proper definitions of the Arts and Core of the culture.<br>These Basotho have a long history in terms of settlement but are now settled at Lesotho, a small country land locked by South Africa, found on the far east of southern Africa.
+	</p>
+</div>
+</div>
+</body>
+</html>

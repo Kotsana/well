@@ -1,0 +1,178 @@
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: lawngreen;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: bisque;
+  outline: none;
+  color: beige;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: orbitron;
+  margin: 10px;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  margin-left: 0px;
+  transition: transform 0.5s;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: none;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: beige;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+p {
+  color: beige;
+  font-size: 30px;
+  font-family: orbitron;
+  text-align: center;
+}
+p1 {
+    font-size: 15px;
+    color: beige;
+    margin-left: 40px;
+    margin-top: 60px;
+    font-family: orbitron;
+}
+p2 div {
+  margin-left: 480px;
+  margin-top : 30px;
+}
+button {
+  margin-left: 150px;
+  margin-top: 10px;
+}
+h1 {
+	font-size: 30px;
+	margin-top: 50px;
+	color: beige;
+	text-transform: uppercase;
+	text-align: center;
+  font-family: orbitron;
+}
+img {
+	text-align: left;
+  image-resolution: 800px;
+  image-rendering: crisp-edges;
+  border-radius: 50px;
+}
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.left-side {
+  flex: 1;
+  overflow: hidden;
+}
+
+.left-side img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin-right: 20px;
+}
+
+.right-side {
+  text-align: right;
+  flex: 1;
+  padding: 40px;
+  flex-direction: column;
+  justify-content: center;
+  background-color: black;
+}
+form > div {
+  color: beige;
+  font-family: orbitron;
+  font-size: 20px;
+}
+h3 {
+  font-size: 30px;
+  margin-left:480px ;
+  margin-top: 60px;
+  color: beige;
+}
+.container {
+ content-align:center;
+ margin-left: 310px;
+ margin-top: 40px;
+}
+.container2 {
+ content-align:center;
+ margin-left: 480px;
+ margin-top: 40px;
+}
+.rating {
+  display: flex;
+  margin-left: 480px;
+  margin-top: 50px;
+}
+.rating input {
+  display: flow-root;
+}
+.rating label {
+  font-size: 20px;
+  color: beige;
+}
+.rating label : hover,
+.rating label: hover ~ label {
+  color: gold;
+}
+.rating input : checked ~ {
+  color: gold;
+}
+div {
+  color: beige;
+  gap: 25px;
+  font-size: 15px;
+  font-family: orbitron;
+}
+article {
+  font-size: 23px;
+  margin-left: 100px;
+}
